@@ -128,14 +128,14 @@ document.addEventListener("DOMContentLoaded", () => {
   para.className = "mb-0";
 
   const link = document.createElement("a");
-  link.href = "tg://resolve?domain=IM_JISSHU";
+  link.href = "tg://resolve?domain=BOT_OWNER26";
   link.target = "_blank";
   link.className = "footer-text";
 
   const icon = document.createElement("i");
   icon.className = "fa-solid fa-robot me-2";
 
-  const text = document.createTextNode("Made with by Jisshu Developer");
+  const text = document.createTextNode("Made with by Aman Developer");
   const devIcon = document.createElement("i");
   devIcon.className = "fa-solid fa-laptop-code dev-icon";
 
