@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "https://integral-trista-vnnmbs-5d76313f.koyeb.app/$1"
+    }
+  ]
+}
