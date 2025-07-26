@@ -1,43 +1,56 @@
-/* style.css */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-  text-align: center;
-  transition: background 0.3s, color 0.3s;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-.dark {
-  background-color: #121212;
-  color: #f4f4f4;
+body.dark {
+  background-color: #111;
+  color: #eee;
 }
 
 .container {
-  padding: 100px 20px;
+  text-align: center;
+  padding: 40px 20px;
 }
 
 .avatar {
   width: 120px;
+  height: 120px;
   border-radius: 50%;
-  margin-bottom: 20px;
-  border: 3px solid #555;
-}
-
-.socials {
-  margin-top: 20px;
-}
-
-.socials a {
-  margin: 0 10px;
-  color: #0077ff;
-  text-decoration: none;
+  margin: 20px 0;
+  border: 3px solid #007bff;
 }
 
 .toggle-mode {
   position: absolute;
-  top: 20px;
+  top: 10px;
   right: 20px;
   cursor: pointer;
-  font-size: 22px;
+  font-size: 24px;
 }
+
+.buttons button,
+.extra-buttons button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin: 10px 5px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.buttons button:hover,
+.extra-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.buttons,
+.extra-buttons {
+  margin-top: 20px;
+  }
