@@ -1,33 +1,29 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Welcome | AV Botz</title>
-  <link rel="icon" href="https://avatars.githubusercontent.com/u/139852865?v=4" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="toggle-container">
-    <label class="switch">
-      <input type="checkbox" id="modeToggle">
-      <span class="slider round"></span>
-    </label>
-  </div>
-
   <div class="container">
-    <img src="https://avatars.githubusercontent.com/u/139852865?v=4" alt="DP" class="profile-pic" />
-    <h1>Welcome to AV Botz</h1>
-    <p>Your gateway to automation, streaming, and creativity. Powered by Aman Vishwakarma.</p>
-    <a href="https://t.me/AV_BOTz_UPDATE" class="btn">Join Telegram</a>
+    <div class="toggle-mode" onclick="toggleMode()">🌓</div>
+    <img src="https://avatars.githubusercontent.com/u/00000000" alt="Profile" class="avatar" />
+    <h1>Hello, I'm Aman Vishwakarma</h1>
+    <p>Developer | AV Botz Owner | Building Smart Telegram Bots</p>
+    <div class="socials">
+      <a href="https://t.me/AV_BOTz_UPDATE" target="_blank">Telegram</a>
+      <a href="https://github.com/yourgithub" target="_blank">GitHub</a>
+      <a href="mailto:you@example.com">Email</a>
+    </div>
   </div>
 
   <script>
-    const toggle = document.getElementById('modeToggle');
-    toggle.addEventListener('change', () => {
-      document.body.classList.toggle('dark-mode');
-    });
+    function toggleMode() {
+      document.body.classList.toggle('dark');
+    }
   </script>
 </body>
-  </html>
+</html>
