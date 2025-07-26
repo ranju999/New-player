@@ -3,31 +3,38 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Welcome | AV Botz</title>
-  <link rel="icon" href="https://avatars.githubusercontent.com/u/139852865?v=4" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <title>Gautam Kumar</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@3.1.0/tsparticles.bundle.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- Particles Background -->
+  <div id="tsparticles"></div>
+
+  <!-- Dark Mode Toggle -->
   <div class="toggle-container">
     <label class="switch">
-      <input type="checkbox" id="modeToggle">
+      <input type="checkbox" id="modeToggle" />
       <span class="slider round"></span>
     </label>
   </div>
 
-  <div class="container">
-    <img src="https://avatars.githubusercontent.com/u/139852865?v=4" alt="DP" class="profile-pic" />
-    <h1>Welcome to AV Botz</h1>
-    <p>Your gateway to automation, streaming, and creativity. Powered by Aman Vishwakarma.</p>
-    <a href="https://t.me/AV_BOTz_UPDATE" class="btn">Join Telegram</a>
+  <!-- Main Card -->
+  <div class="card">
+    <img src="https://avatars.githubusercontent.com/u/139852865?v=4" alt="Profile" class="profile-pic" />
+    <h1>Gautam Kumar</h1>
+    <p class="subtitle">Still Struggling<span style="color:#0077cc">Gautam</span></p>
+
+    <div class="socials">
+      <a href="https://twitter.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" alt="Twitter" /></a>
+      <a href="https://github.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" /></a>
+      <a href="https://t.me/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/telegram/telegram-original.svg" alt="Telegram" /></a>
+    </div>
+
+    <footer>© 2025 Gautam Kumar</footer>
   </div>
 
-  <script>
-    const toggle = document.getElementById('modeToggle');
-    toggle.addEventListener('change', () => {
-      document.body.classList.toggle('dark-mode');
-    });
-  </script>
+  <script src="script.js"></script>
 </body>
-</html>
+                                          </html>
